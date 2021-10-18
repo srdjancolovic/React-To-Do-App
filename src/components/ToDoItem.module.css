@@ -1,0 +1,39 @@
+.listItem {
+  margin-bottom: 10px;
+  background: rgb(209, 199, 199);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 6px;
+  transition: all 0.5s ease;
+}
+.listItem:last-child {
+  margin-bottom: 0;
+}
+.listItem p {
+  font-size: 18px;
+  color: black;
+}
+.listItem button {
+  padding: 6px 10px;
+  border-radius: 10px;
+  border: none;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  cursor: pointer;
+  background: rgb(117, 113, 113);
+  color: white;
+}
+.listItem button:hover {
+  color: black;
+}
+
+@media (max-width: 576px) {
+  .listItem p {
+    font-size: 16px;
+  }
+}

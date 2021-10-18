@@ -1,0 +1,25 @@
+.app {
+  width: 600px;
+  background: rgb(209, 199, 199);
+  padding: 30px;
+  border-radius: 10px;
+  max-height: 490px;
+  overflow-y: scroll;
+  filter: drop-shadow(0 0 5px black);
+}
+@media (max-width: 670px) {
+  .app {
+    width: 500px;
+  }
+}
+@media (max-width: 576px) {
+  .app {
+    width: 400px;
+    padding: 10px;
+  }
+}
+@media (max-width: 450px) {
+  .app {
+    width: 330px;
+  }
+}

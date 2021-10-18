@@ -1,0 +1,14 @@
+.hintMessage {
+  font-size: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.hintMessageHide {
+  display: none;
+}
+@media (max-width: 576px) {
+  .hintMessage {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,77 @@
+.heading {
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  font-size: 50px;
+  letter-spacing: 1px;
+  margin: 50px 0;
+  color: white;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background: rgb(117, 113, 113);
+  border-radius: 10px;
+}
+.inputField {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 350px;
+}
+
+.inputField input {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 10px;
+  background: rgb(209, 199, 199);
+  border: none;
+}
+.inputField.warning input {
+  filter: drop-shadow(0 0 5px red);
+}
+.inputField input:focus {
+  border: none;
+  outline: none;
+  background: rgb(209, 199, 199);
+}
+.placeholderWarning {
+  display: block;
+}
+@media (max-width: 670px) {
+  .heading {
+    font-size: 40px;
+  }
+
+  .inputField {
+    width: 250px;
+  }
+}
+
+@media (max-width: 576px) {
+  .heading {
+    font-size: 35px;
+  }
+  .form {
+    display: block;
+    padding: 10px;
+  }
+  .inputField {
+    width: 100%;
+  }
+
+  .listContainer {
+    padding: 10px;
+  }
+  .list-container .list-item p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 450px) {
+  .heading {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,11 @@
+.listContainer {
+  margin-top: 30px;
+  background: rgb(117, 113, 113);
+  padding: 30px;
+  border-radius: 10px;
+}
+@media (max-width: 576px) {
+  .listContainer {
+    padding: 10px;
+  }
+}
